@@ -30,7 +30,7 @@
 \renewcommand{\thefootnote}{\roman{footnote}}
 
 \pagestyle{fancy}
-\lhead{Praktikum I - (3) Tranzistor}
+\lhead{Praktikum II - (3) Tranzistor}
 \rhead{Vladislav Wohlrath}
 \author{Vladislav Wohlrath}
 
@@ -39,19 +39,19 @@
 \begin{document}
 
 \begin{titlepage}
-\includepdf[pages={1}]{./graficos/titlelist.pdf}
+\includepdf[pages={1}]{./graficos/203-tit.pdf}
 \end{titlepage}
 
 \section*{Pracovní úkoly}
 \begin{enumerate}
-\item ÚKOLY
+\item Proměřte vstupní charakteristiku křemíkového tranzistoru BD 139 ( N P N ) v zapojení se společným emitorem pro nulový proud kolektorem ($R=\infty$) a odpor $R=\SI{1000}{\ohm}$.
+\item Proměřte výstupní charakteristiku tranzistoru BD 139 pro proudy bází - $I_B= \SI{0.1}{\milli\ampere}$, \SI{0.2}{\milli\ampere} a \SI{0.3}{\milli\ampere}.
+\item Změřte závislost kolektorového proudu $I_{CE}$ na proudu bází $I_{BE}$ pro kolektorové napětí $U_{CE} = \SI{2}{\volt}$, \SI{6}{\volt} a \SI{10}{\volt}.
+\item Pomocí lineární regrese určete činitel proudového zesílení $\beta$ v zapojení se společným emitorem.
 \end{enumerate}
 
 %Teoretická část
 \input{teorie.tex}
-
-%Podmínky a měřící přístroje
-\input{podminky.tex}
 
 %Výsledky měření
 \input{vysledky.tex}

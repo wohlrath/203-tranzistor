@@ -1,4 +1,4 @@
-##Praktikum I - (3) Tranzistor
+##Praktikum II - (3) Tranzistor
 
 *Vladislav Wohlrath*
 
